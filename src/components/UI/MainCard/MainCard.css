@@ -1,0 +1,12 @@
+/* 
+Main style and config
+*/
+
+.main {
+    background-color: rgba(35, 99, 35, 0.342);
+    height: auto;
+    width: 40%;
+    margin: 10px auto;
+    border-radius: 15px;
+    padding: 10px;
+}
