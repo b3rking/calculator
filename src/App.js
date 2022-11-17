@@ -1,13 +1,15 @@
 import Btn from "./components/UI/Btn/Btn";
 import Card from "./components/UI/Card/Card";
 import Grid from "./components/UI/Grid/Grid";
-import Header from "./components/UI/Header";
+import Header from "./components/UI/Header/Header";
 import MainCard from "./components/UI/MainCard/MainCard";
+import Screen from "./components/UI/Screen/Screen";
 
 function App() {
     return (
         <MainCard>
             <Header>Calculator</Header>
+            <Screen />
             <Card>
                 <Grid>
                     <Btn>1</Btn>
