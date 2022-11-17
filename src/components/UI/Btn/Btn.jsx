@@ -9,7 +9,7 @@ export default function Btn({type="input", orientation="portrait", children}) {
     }
 
     return (
-        <div className="col pe-auto bg-primary w-25" onClick={clickHandler} ref={value}>
+        <div className="g-col-4 bg-primary my-3" onClick={clickHandler} ref={value}>
             {children}
         </div>
     )
