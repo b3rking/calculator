@@ -30,10 +30,10 @@ function App() {
                     <Btn> * </Btn>
                 </Grid>
                 <Grid>
-                    <Btn> 0 </Btn>
                     <Btn> Clear </Btn>
-                    <Btn> = </Btn>
+                    <Btn> 0 </Btn>
                     <Btn> / </Btn>
+                    <Btn> = </Btn>
                 </Grid>
             </Card>
         </MainCard>
