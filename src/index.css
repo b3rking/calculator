@@ -1,4 +1,6 @@
-* {
+/* 
+
+** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -7,4 +9,9 @@
 html {
     font-family: 'Poppins', sans-serif;
     color: rgba(0, 27, 0, 0.884);
-}
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
