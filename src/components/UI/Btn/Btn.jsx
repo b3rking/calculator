@@ -1,8 +1,7 @@
 import React from "react";
 import { useRef } from "react";
-import Operation from "../../Ops/Operation";
 
-export default function Btn({ type = "input", orientation = "portrait", children }) {
+export default function Btn({ type = "input", orientation = "portrait", children}) {
     const value = useRef();
 
     const transformValue = (btnValue) => {
@@ -40,18 +39,8 @@ export default function Btn({ type = "input", orientation = "portrait", children
         return { val: btnValue, type: typeof (btnValue) };
     }
 
-    // show the value of an entered value on the screen
-    //      - first take the data to the app parent
-    //      - and send the props to the screen component
-    
-
-    const clickHandler = () => {
-        let val = transformValue(value.current.innerText)
-        console.log(val);
-    }
-
     return (
-        <div className="my-3 bg-green-100 text-xl font-bold rounded-lg py-4 flex flex-row justify-center items-center cursor-pointer" onClick={clickHandler} ref={value}>
+        <div className="my-3 bg-green-100 text-xl font-bold rounded-lg py-4 flex flex-row justify-center items-center cursor-pointer" ref={value}>
             {children}
         </div>
     )

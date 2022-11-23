@@ -6,6 +6,7 @@ import MainCard from "./components/UI/MainCard/MainCard";
 import Screen from "./components/UI/Screen/Screen";
 
 function App() {
+
     return (
         <MainCard>
             <Header>Calculator</Header>
