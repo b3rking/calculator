@@ -6,6 +6,9 @@ import MainCard from "./components/UI/MainCard/MainCard";
 import Screen from "./components/UI/Screen/Screen";
 
 function App() {
+    const getBtnTransformedValue = (value) => {
+        console.log(value);
+    }
 
     return (
         <MainCard>
@@ -13,7 +16,7 @@ function App() {
             <Screen />
             <Card>
                 <Grid>
-                    <Btn>1</Btn>
+                    <Btn onClickBtn={getBtnTransformedValue}>1</Btn>
                     <Btn>2</Btn>
                     <Btn>3</Btn>
                     <Btn> - </Btn>
